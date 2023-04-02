@@ -1,5 +1,5 @@
 # Test Creator
-A simple Ruby script that generates tests in ready to print PDF format. It was designed for my son, who needs this for exams preparation in elementary school.  
+A simple Ruby script that generates print-ready PDF files with tests. This is something like flashcards that are used to remember expressions, e.g. words and phrases to be translated, mathematical tasks, etc. It was designed for my son, who needs this for exams preparation in elementary school.  
 
 Pdf is generated from a CSV file with specified structure placed in `source` directory.
 Each row of CSV file must contain two columns separated by a semicolon that correspond to the original *Question* and *Answer*.

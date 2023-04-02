@@ -10,7 +10,6 @@ class TestCreator
     bold: File.expand_path("../#{FONT_PATH}/Roboto-Bold.ttf", __FILE__),
     bold_italic: File.expand_path("../#{FONT_PATH}/Roboto-BoldItalic.ttf", __FILE__)
   }}
-  OUTPUT_DIR = File.expand_path('../output', __FILE__)
 
   def initialize(path, with_answers: true, shuffle: true )
     @path = path
@@ -67,4 +66,5 @@ class TestCreator
   end
 end
 
+# script execution
 TestCreator.new('english/unit4.csv', with_answers: false).call
