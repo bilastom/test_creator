@@ -12,13 +12,14 @@ Question2;Answer2
 Question3;Answer3
 ```
 
-Script takes 3 arguments:
+The script takes the following arguments:
 
 | argument | default value | description |
 | --------------- | --------------- | --------------- |
-| `source_file_name` | - | a path to file in source directory |
-| `with_answers` | true | a boolean that specifies whether answers should be displayed |
-| `shuffle` | true | a boolean that specifies whether rows should be shuffled
+| `source_file_name` | - | path to file in source directory |
+| `with_answers` | true | boolean value that specifies whether answers should be displayed |
+| `shuffle` | true | boolean value that specifies whether rows should be shuffled |
+| `landscape_layout` | false | boolean value to set pdf page layout as landscape. For `false` value portrait mode will be set up |
 
 Example execution. 
 ```ruby
