@@ -1,2 +1,5 @@
 source/*
 !source/.keep
+output/*
+!output/.keep
+.DS_Store
